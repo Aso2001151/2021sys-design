@@ -1,5 +1,6 @@
-@startuml
 ```uml
+
+@startuml
 
 /'
   図の中で目立たせたいエンティティに着色するための
@@ -7,8 +8,8 @@
   https://plantuml.com/ja/skinparam
 '/
 
-!define MASTER_MARK_COLOR Gray 
-!define TRANSACTION_MARK_COLOR White
+!define MASTER_MARK_COLOR Orange 
+!define TRANSACTION_MARK_COLOR DeepSkyBlue
 
 'グラデーションさせる場合 #xx-xx
 !define MAIN_ENTITY #MintCream-MistyRose
@@ -114,5 +115,7 @@ order          ||-ri-|{     order_detail
 order_detail    }-do-||     items
 items          }o-le-||     category
 
-```
+
 @enduml
+
+```
