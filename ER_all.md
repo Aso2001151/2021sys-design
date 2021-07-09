@@ -1,4 +1,6 @@
 @startuml
+```uml
+
 /'
   図の中で目立たせたいエンティティに着色するための
   色の名前（定数）を定義できます。
@@ -111,4 +113,6 @@ customer       |o-ri-o{     order
 order          ||-ri-|{     order_detail
 order_detail    }-do-||     items
 items          }o-le-||     category
+
+```
 @enduml
